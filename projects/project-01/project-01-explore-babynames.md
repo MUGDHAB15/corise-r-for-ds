@@ -578,7 +578,6 @@ tbl_names_vowel_consonant |>
        caption = "Source: SSA",
        x = "Year",
        y = "Proportion of names")+
-
   # Clean up x and y axis scales
   scale_x_continuous(
     expand = c(0, 0)
