@@ -237,8 +237,8 @@ plot_trends_in_name <- function(my_name) {
     # Add labels (title, x, y)
     labs(
       title = glue::glue("Babies named {my_name} across the years!"),
-      x = 'Year',
-      y = '# Babies'
+      x = '# Babies',
+      y = 'Year'
     ) +
     # Update plot theme
     theme(plot.title.position = "plot")
